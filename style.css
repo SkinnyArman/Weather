@@ -1,0 +1,89 @@
+body{
+
+
+    width: 98%;
+    height: 90vh;
+    margin: 0;
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    background-image: radial-gradient(circle, #1c7fc2 0%, #009cdc 28%, #0d9cdc 32%, #011844 100%);
+    filter: blur(15px);
+    transition: filter 0.5s;
+}
+
+
+.searchBar{
+    width: 100%;
+}
+.theimage{
+    width: 85%;
+    height: 85%;
+    margin-top: 30px;
+}
+.rigtText{
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.city,.day,.wind,.humidity,.direction,.tempSmallDevices{
+    display:inline-block;
+}
+.tempSmallDevices{
+    font-size: 35px;
+
+    font-weight:500 ;
+}
+.day{
+    font-size: 24px;
+    font-weight: 500;
+}
+.city{
+    font-size: 30px;
+    margin-bottom: 17px;
+    font-weight: 700;
+}
+
+.article{
+    height: 250px;
+    margin-right: 0px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.articlearticle{
+    width: 95%;
+    height: 100%;
+    background-color:rgba(255,255, 255,0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+.imeg{
+    max-width: 50%;
+    margin-top: 10px;
+}
+.searchBar{
+    padding: 5px 5px;
+    border: none;
+    background: rgba(255,255, 255,0.15);
+    color: inherit;
+}
+.searchBar::placeholder{
+    color: white;
+}
+.weather__forecast__day{
+    margin-top: 25px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 989px){
+        .weather__forecast__day{
+            font-size: 25px;
+            }
+}
+@media screen and (max-width: 450px){
+    .mainpic{
+    padding: 15px;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 764px){
+
+}

@@ -1,0 +1,60 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    <div class="container">
+    <div class="row mt-3">
+        <div class="col-12 searchBarContainer text-center mb-3">
+            <input class="searchBar" list="suggestions" placeholder="Your City">
+            <datalist id="suggestions">
+
+                
+            </datalist>
+        </div>
+        <div class="col-6 col-md-4 mt-3 text-left leftText">
+            <p class="city">City</p><br/>
+            <p class="day">Thursday</p> <br/>
+            <p class="humidity"><i class="fas fa-tint"></i> 30% </p><br/>
+            <p class="direction"><i class="fas fa-compass"></i> West, 6.7</p><br>
+            <p class="airPressure"><i class="fas fa-wind"></i> 1002 hPa</p><br/>
+            <p class="tempSmallDevices d-md-none"><i class="fas fa-thermometer-three-quarters"></i> +36C</p> <br/>
+        </div>
+        <div class="col-6 col-md-4 mainpic">
+            <img class="theimage" src="clear.png">
+        </div>
+        <div class="d-none d-md-block col-md-4 text-right">
+            <div class="rigtText">+36C</div>
+        </div>
+    <div class="col-12  articleContainer">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3 article mt-3"><div class="articlearticle"><img class="imeg" src="clear.png"><h3 class="weather__forecast__day">Day</h3>
+                <p class="weather__forecast__temperature"><span class="value">+25</span> &deg;C</p></div></div>
+            <div class="col-12 col-sm-6 col-md-3 article mt-3"><div class="articlearticle"><img class="imeg" src="clear.png"><h3 class="weather__forecast__day">Day</h3>
+                <p class="weather__forecast__temperature"><span class="value">+25</span> &deg;C</p></div></div>
+            <div class="col-12 col-sm-6 col-md-3 article mt-3"><div class="articlearticle"><img class="imeg" src="clear.png"><h3 class="weather__forecast__day">Day</h3>
+                <p class="weather__forecast__temperature"><span class="value">+25</span> &deg;C</p></div></div>
+            <div class="col-12 col-sm-6 col-md-3 mx-auto article mt-3"><div class="articlearticle"><img class="imeg" src="clear.png"><h3 class="weather__forecast__day">Day</h3>
+                <p class="weather__forecast__temperature"><span class="value">+25</span> &deg;C</p></div></div>
+        </div>
+     </div>
+
+    </div>
+
+    </div>
+    
+    <script src="functionality.js"></script>
+</body>
+</html>
